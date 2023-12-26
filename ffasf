@@ -1,0 +1,52 @@
+[1mdiff --git a/pages/index.js b/pages/index.js[m
+[1mindex 588c89a..a91543f 100644[m
+[1m--- a/pages/index.js[m
+[1m+++ b/pages/index.js[m
+[36m@@ -28,31 +28,26 @@[m [mfunction Home() {[m
+ [m
+   return ([m
+     <main className={styles.main}>[m
+[31m-      <h1>Fast Refresh Demo</h1>[m
+[32m+[m[32m      <h1>Estudando para hackear a NASA</h1>[m
+       <p>[m
+[31m-        Fast Refresh is a Next.js feature that gives you instantaneous feedback[m
+[31m-        on edits made to your React components, without ever losing component[m
+[31m-        state.[m
+[32m+[m[32m     pipipopopo[m
+       </p>[m
+       <hr className={styles.hr} />[m
+       <div>[m
+         <p>[m
+[31m-          Auto incrementing value. The counter won't reset after edits or if[m
+[31m-          there are errors.[m
+[32m+[m[32m        blablabla[m
+         </p>[m
+[31m-        <p>Current value: {count}</p>[m
+[32m+[m[32m        <p> Quantidade de chifre:  {count}</p>[m
+       </div>[m
+       <hr className={styles.hr} />[m
+       <div>[m
+[31m-        <p>Component with state.</p>[m
+[31m-        <ClickCount />[m
+[32m+[m[32m        <p>Clica aqui para ver algo irrelevante acontecer </p>[m
+[32m+[m[32m        <ClickCount/>[m
+       </div>[m
+       <hr className={styles.hr} />[m
+       <div>[m
+         <p>[m
+[31m-          The button below will throw 2 errors. You'll see the error overlay to[m
+[31m-          let you know about the errors but it won't break the page or reset[m
+[31m-          your state.[m
+[32m+[m[32m         ximbalaieeeeeeeeeee[m
+         </p>[m
+         <Button[m
+           onClick={(e) => {[m
+[36m@@ -60,7 +55,7 @@[m [mfunction Home() {[m
+             throwError()[m
+           }}[m
+         >[m
+[31m-          Throw an Error[m
+[32m+[m[32m          Toma danada[m[41m [m
+         </Button>[m
+       </div>[m
+       <hr className={styles.hr} />[m

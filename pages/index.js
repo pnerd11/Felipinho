@@ -28,31 +28,26 @@ function Home() {
 
   return (
     <main className={styles.main}>
-      <h1>Fast Refresh Demo</h1>
+      <h1>Estudando para hackear a NASA</h1>
       <p>
-        Fast Refresh is a Next.js feature that gives you instantaneous feedback
-        on edits made to your React components, without ever losing component
-        state.
+     pipipopopo
       </p>
       <hr className={styles.hr} />
       <div>
         <p>
-          Auto incrementing value. The counter won't reset after edits or if
-          there are errors.
+        blablabla
         </p>
-        <p>Current value: {count}</p>
+        <p> Quantidade de chifre:  {count}</p>
       </div>
       <hr className={styles.hr} />
       <div>
-        <p>Component with state.</p>
-        <ClickCount />
+        <p>Clica aqui para ver algo irrelevante acontecer </p>
+        <ClickCount/>
       </div>
       <hr className={styles.hr} />
       <div>
         <p>
-          The button below will throw 2 errors. You'll see the error overlay to
-          let you know about the errors but it won't break the page or reset
-          your state.
+         ximbalaieeeeeeeeeee
         </p>
         <Button
           onClick={(e) => {
@@ -60,7 +55,7 @@ function Home() {
             throwError()
           }}
         >
-          Throw an Error
+          Toma danada 
         </Button>
       </div>
       <hr className={styles.hr} />
